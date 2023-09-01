@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@200&family=Labrada:ital,wght@1,600&family=Roboto:wght@100&family=Varela+Round&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    background-color: rgba(7, 8, 7, 0.785);
+    color: white;
+}
+
+.container{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.container>h1{
+    font-size: 1.2rem;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 1rem;
+}
+
+.portada{
+    width: 100vw;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(./img/granja-ensaladas-verduras-hidroponicas-metodo-hidroponico-cultivo-plantas-vegetales-ensalada-granja-agua-suelo-lechugas-hidroponicas-pipa-hidroponica_247622-13239.avif);
+    position: relative;
+    background-size: 100%;
+    gap: 1rem;
+    align-items: center;
+    font-size: 1.6rem;
+}
+
+.portada {
+    background: 
+      
+      linear-gradient(
+        rgb(22, 206, 169),  
+        rgba(4, 228, 41, 0.137)   
+      ),
+      
+      url(./img/granja-ensaladas-verduras-hidroponicas-metodo-hidroponico-cultivo-plantas-vegetales-ensalada-granja-agua-suelo-lechugas-hidroponicas-pipa-hidroponica_247622-13239.avif);
+    background-size: cover;
+    position: relative;
+  }
+
+
+.portada>h1{
+
+    
+    color: black;   /* color del texto, puedes cambiarlo */
+    position: relative;
+    z-index: 1; 
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    align-items: center;
+    font-size: 1.6rem;
+    font-family: gluten;
+    font-weight: bold;
+}
+
+.portada>p{
+    color: black;   /* color del texto, puedes cambiarlo */
+    position: relative;
+    z-index: 1; 
+    font-size: 1.2rem;
+    display: flex;
+    width: 70%;
+    margin-top: 30px;
+    font-weight: bold;
+    font-family: gluten;
+    
+    
+}
+
+.info{
+    font-family: labrada;
+    font-size: 1.2rem;
+    margin: 25px;
+}
+
+.slider-container {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+ 
+
+}
+
+.left-slide {
+  height: 100%;
+  width: 55%;
+  position: absolute;
+
+  transition: transform 0.5s ease-in-out;
+}
+
+.left-slide > div {
+  height: 100%;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  
+}
+
+.left-slide h1 {
+  font-size: 25px;
+  margin-left: -75px;
+ 
+  
+}
+
+.left-slide > div > p {
+  width: 3%;
+  margin-top: 2rem;
+  margin-left: -180px;
+  font-size: 1.3rem;
+
+}
+
+
+
+.right-slide {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 35%;
+  width: 65%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.right-slide > div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+}
+
+button {
+  background-color: #fff;
+  border: none;
+  color: #aaa;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 15px;
+}
+
+button:hover {
+  color: #222;
+}
+
+
+
+
+.slider-container .action-buttons button {
+  position: absolute;
+  left: 35%;
+  top: 62%;
+  z-index: 100;
+}
+
+.slider-container .action-buttons .down-button {
+  transform: translateX(-100%);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.slider-container .action-buttons .up-button {
+  transform: translateY(-100%);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.galeria{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: 35px;
+  padding: 10px;
+  gap: 2rem;
+  text-align: center;
+  font-family: labrada;
+  font-weight: bold;
+
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  background-color: rgba(7, 8, 7, 0.785) ;
+  padding: 20px;
+}
+
+footer h3 {
+  margin-top: 2em;
+  font-size:0.65em;
+}
+
+.social-icons a { 
+  margin-right: 10px;
+  color:  #50dd8f;
+  font-size: 30px;
+}
+
+.social-icons a:hover {
+  color: #8efb09;
+}
