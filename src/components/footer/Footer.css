@@ -1,0 +1,23 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: rgba(7, 8, 7, 0.785) ;
+    padding: 20px;
+  }
+  
+  footer h3 {
+    margin-top: 2em;
+    font-size:0.65em;
+  }
+  
+  .social-icons a { 
+    margin-right: 10px;
+    color:  #50dd8f;
+    font-size: 30px;
+  }
+  
+  .social-icons a:hover {
+    color: #8efb09;
+  }

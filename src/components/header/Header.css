@@ -1,0 +1,75 @@
+.nav{
+    background-color: rgba(7, 8, 7, 0.785);
+    color: white;
+}
+
+.container{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.container>h1{
+    font-size: 1.2rem;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 1rem;
+}
+
+.portada{
+    width: 100vw;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(/public/assets/granja-ensaladas-verduras-hidroponicas-metodo-hidroponico-cultivo-plantas-vegetales-ensalada-granja-agua-suelo-lechugas-hidroponicas-pipa-hidroponica_247622-13239.avif);
+    position: relative;
+    background-size: 100%;
+    gap: 1rem;
+    align-items: center;
+    font-size: 1.6rem;
+}
+
+.portada {
+    background: 
+      
+      linear-gradient(
+        rgb(22, 206, 169),  
+        rgba(4, 228, 41, 0.137)   
+      ),
+    url(/public/assets/granja-ensaladas-verduras-hidroponicas-metodo-hidroponico-cultivo-plantas-vegetales-ensalada-granja-agua-suelo-lechugas-hidroponicas-pipa-hidroponica_247622-13239.avif);      
+    background-size: cover;
+    position: relative;
+  }
+
+
+.portada>h1{
+
+    
+    color: black;   /* color del texto, puedes cambiarlo */
+    position: relative;
+    z-index: 1; 
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    align-items: center;
+    font-size: 1.6rem;
+    font-family: gluten;
+    font-weight: bold;
+}
+
+.portada>p{
+    color: black;   /* color del texto, puedes cambiarlo */
+    position: relative;
+    z-index: 1; 
+    font-size: 1.2rem;
+    display: flex;
+    width: 70%;
+    margin-top: 30px;
+    font-weight: bold;
+    font-family: gluten;  
+}
