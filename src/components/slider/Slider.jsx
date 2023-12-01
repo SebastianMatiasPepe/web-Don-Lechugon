@@ -1,5 +1,10 @@
 import { useState } from "react";
 import "./Slider.css";
+import React, { Component } from 'react';
+import { FaArrowUp, FaArrowDown } from "react-icons/fa";
+
+
+
 
 export default function Slider() {
   const [activeSlideIndex, setActiveSlideIndex] = useState(0);
@@ -23,19 +28,20 @@ export default function Slider() {
           className="left-slide"
           style={{ transform: `translateY(-${activeSlideIndex * 100}vh)` }}
         >
-          <div style={{ backgroundColor: "#FD3555" }}>
-            <h1>Aeroponía</h1>
-            <p>Sistema de cultivo hidropónico vertical</p>
-          </div>
-          <div style={{ backgroundColor: "#2A86BA" }}>
-            <h1>Hidroponia</h1>
-            <p>Hidroponia horizontal , Aeroponía NFT</p>
-          </div>
           <div style={{ backgroundColor: "#252E33" }}>
             <h1>Rúcula </h1>
             <h1>hidropónica </h1>
             <p>Mas sabor , mejor textura , mayor duracion , sin pesticidas</p>
           </div>
+          <div style={{ backgroundColor: "#2A86BA" }}>
+            <h1>Hidroponia</h1>
+            <p>Hidroponia horizontal , Aeroponía NFT</p>
+          </div>
+          <div style={{ backgroundColor: "#FD3555" }}>
+            <h1>Aeroponía</h1>
+            <p>Sistema de cultivo hidropónico vertical</p>
+          </div>
+        
         </div>
         <div
           className="right-slide"
@@ -47,10 +53,10 @@ export default function Slider() {
         </div>
         <div className="action-buttons">
           <button className="down-button" onClick={() => changeSlide("down")}>
-            <i className="fas fa-arrow-down"></i>
+            <i ><FaArrowDown/></i>
           </button>
           <button className="up-button" onClick={() => changeSlide("up")}>
-            <i className="fas fa-arrow-up"></i>
+            <i ><FaArrowUp/></i>
           </button>
         </div>
       </div>

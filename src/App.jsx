@@ -3,6 +3,8 @@ import Info from "./components/info/Info"
 import Slider from "./components/slider/Slider"
 import Galeria from "./components/galeria/Galeria"
 import Footer from "./components/footer/Footer"
+
+
 import "./App.css";
 
 export default function App(){
@@ -13,6 +15,7 @@ export default function App(){
       <Slider />
       <Galeria />
       <Footer />
+     
     </>
   )
 }

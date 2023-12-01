@@ -1,3 +1,5 @@
+import React, { Component } from 'react';
+import { FaInstagram, FaWhatsapp, FaEnvelope } from "react-icons/fa";
 import "./Footer.css"
 
 export default function Footer() {
@@ -6,13 +8,13 @@ export default function Footer() {
       <footer>
         <div className="social-icons">
           <a href="mailto:donlechugon@gmail.com">
-            <i className="fa fa-envelope"></i>
+            <i ><FaEnvelope/></i>
           </a>
           <a href="https://www.instagram.com/don.lechugon/">
-            <i className="fa-instagram"></i>
+            <i ><FaInstagram/></i>
           </a>
           <a href="https://api.whatsapp.com/send?phone=donlechugon">
-            <i className="bi bi-whatsapp"></i>
+            <i ><FaWhatsapp/></i>
           </a>
         </div>
         <h3>Todos los Derechos Reservados || DonLechugon </h3>

@@ -26,7 +26,7 @@ ul{
     height: 250px;
     display: flex;
     flex-direction: column;
-    background-image: url(/public/assets/granja-ensaladas-verduras-hidroponicas-metodo-hidroponico-cultivo-plantas-vegetales-ensalada-granja-agua-suelo-lechugas-hidroponicas-pipa-hidroponica_247622-13239.avif);
+    background-image: url(/img/HEADER.jpeg);
     position: relative;
     background-size: 100%;
     gap: 1rem;
