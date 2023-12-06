@@ -1,6 +1,7 @@
 .nav{
     background-color: rgba(7, 8, 7, 0.785);
     color: white;
+    width: 100vw;
 }
 
 .container{
@@ -19,38 +20,52 @@ ul{
     list-style-type: none;
     align-items: center;
     gap: 1rem;
+    margin-right: 20px;
 }
 
+.imgBox img{
+    margin: 20px;
+    width: 90%;
+    height: auto;
+}
+
+
+
+   
+/*
 .portada{
-    width: 100vw;
-    height: 250px;
+    width: 100%;
+    height: 450px;
     display: flex;
     flex-direction: column;
-    background-image: url(/img/HEADER.jpeg);
     position: relative;
     background-size: 100%;
     gap: 1rem;
     align-items: center;
     font-size: 1.6rem;
+   
 }
-
+*/
+/*
 .portada {
     background: 
       
       linear-gradient(
-        rgb(22, 206, 169),  
+        rgba(22, 206, 200, 0.446),  
         rgba(4, 228, 41, 0.137)   
       ),
-    url(/public/assets/granja-ensaladas-verduras-hidroponicas-metodo-hidroponico-cultivo-plantas-vegetales-ensalada-granja-agua-suelo-lechugas-hidroponicas-pipa-hidroponica_247622-13239.avif);      
+    url(./img/HEADER.jpeg); 
+        
     background-size: cover;
     position: relative;
   }
+*/
 
-
+/*
 .portada>h1{
 
     
-    color: black;   /* color del texto, puedes cambiarlo */
+    color: black;   
     position: relative;
     z-index: 1; 
     display: flex;
@@ -63,7 +78,7 @@ ul{
 }
 
 .portada>p{
-    color: black;   /* color del texto, puedes cambiarlo */
+    color: black;   
     position: relative;
     z-index: 1; 
     font-size: 1.2rem;
@@ -72,4 +87,10 @@ ul{
     margin-top: 30px;
     font-weight: bold;
     font-family: gluten;  
-}
+}*/
+
+/* <h1>Bienvenido a Don Lechugón</h1>
+        <p>
+          Producción y comercialización de vegetales hidropónicos Vivos!! Ahorro
+          de más de 70% de agua
+        </p> */

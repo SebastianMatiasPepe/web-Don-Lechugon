@@ -1,12 +1,16 @@
 import React from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
+import  "./Map.css"
+
 
 const Map = () => {
   const position = [-38.05255918995808, -57.56565259304688]; // Latitud y longitud inicial
 
   return (
+  
     <section className="container-map">
+       
       <div style={{ overflow: "hidden", width: "90%",  margin: '0 auto' }}>
         <MapContainer
           center={position}

@@ -14,12 +14,13 @@ export default function Header() {
         </div>
       </nav>
 
+      <div className="imgBox">
+        <img src="./img/HEADER.jpeg" alt="description" />
+      </div>
+
       <div className="portada">
-        <h1>Bienvenido a Don Lechugón</h1>
-        <p>
-          Producción y comercialización de vegetales hidropónicos Vivos!! Ahorro
-          de más de 70% de agua
-        </p>
+       
+       
       </div>
     </>
   );

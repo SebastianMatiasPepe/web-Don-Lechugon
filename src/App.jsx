@@ -12,11 +12,8 @@ export default function App() {
       <Header />
       <Info />
       <Slider />
+      <Map />
       <Galeria />
-      <div className="App">
-        <Map />
-      </div>
-      <br />
       <Footer />
     </>
   );
