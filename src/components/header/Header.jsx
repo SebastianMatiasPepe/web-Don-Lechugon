@@ -7,9 +7,9 @@ export default function Header() {
         <div className="container">
           <h1>Don Lechugón</h1>
           <ul>
-            <li>Inicio</li>
-            <li>Servicio</li>
-            <li>Contacto</li>
+            <li><a href="">Inicio</a></li>
+            <li><a href="#gal">Galeria</a></li>
+            <li><a href="#wp">Contacto</a></li>
           </ul>
         </div>
       </nav>

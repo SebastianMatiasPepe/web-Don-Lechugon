@@ -4,7 +4,7 @@ export default function Galeria() {
   return (
     <>
       <div className="galeria">
-        <h2> Galería de Imágenes</h2>
+        <h2 id="gal"> Nuestros productos </h2>
             <div className="imagen-container">
               <img src="./img/1.jpeg" alt="" />
               <img src="./img/2.jpg" alt="" />

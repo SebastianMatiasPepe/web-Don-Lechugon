@@ -5,7 +5,7 @@ import "./Footer.css"
 export default function Footer() {
   return (
     <>
-      <footer>
+      <footer id='wp'>
         <div className="social-icons">
           <a href="mailto:donlechugon@gmail.com">
             <i ><FaEnvelope/></i>

@@ -18,7 +18,7 @@ const Map = () => {
     <>
     <div className="titulo">
 
-      <h1>Sucursales donde vendo mis productos!!!</h1>
+      <h1>Nuestras Sucursales</h1>
     </div>
       <section className="container-map">
         <div style={{ overflow: "hidden", width: "90%", margin: "0 auto" }}>
