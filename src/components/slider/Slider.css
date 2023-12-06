@@ -4,9 +4,13 @@
     width: 85vw;
     height: 100vh;
     margin: 50px;
-   
+
    
   
+  }
+  section{
+    display: flex;
+    justify-content: center;
   }
   
   .left-slide {

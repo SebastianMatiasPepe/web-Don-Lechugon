@@ -23,6 +23,11 @@ ul{
     margin-right: 20px;
 }
 
+.imgBox{
+    display: flex;
+    justify-content: center;
+}
+
 .imgBox img{
     margin: 20px;
     width: 90%;

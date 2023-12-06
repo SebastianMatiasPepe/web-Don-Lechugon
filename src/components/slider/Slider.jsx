@@ -22,7 +22,7 @@ export default function Slider() {
   };
 
   return (
-    <>
+    <section>
       <div className="slider-container">
         <div
           className="left-slide"
@@ -60,6 +60,6 @@ export default function Slider() {
           </button>
         </div>
       </div>
-    </>
+    </section>
   );
 }
