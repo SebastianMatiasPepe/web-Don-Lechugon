@@ -13,7 +13,7 @@ export default function Footer() {
           <a href="https://www.instagram.com/don.lechugon/">
             <i ><FaInstagram/></i>
           </a>
-          <a href="https://api.whatsapp.com/send?phone=donlechugon">
+          <a href="https://api.whatsapp.com/send?phone=2236165816">
             <i ><FaWhatsapp/></i>
           </a>
         </div>

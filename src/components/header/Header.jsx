@@ -15,7 +15,7 @@ export default function Header() {
       </nav>
 
       <div className="imgBox">
-        <img src="./img/HEADER.jpeg" alt="description" />
+        <img src="/assets/HEADER.jpeg" alt="description" />
       </div>
 
       <div className="portada">

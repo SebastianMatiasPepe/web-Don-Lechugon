@@ -1,9 +1,8 @@
 .slider-container {
     position: relative;
     overflow: hidden;
-    width: 85vw;
+    width: 100vw;
     height: 100vh;
-    margin: 50px;
 
    
   
@@ -66,13 +65,13 @@
   }
   
   .background1{
-    background-image: url(/public/assets/3.jpeg);
+    background-image: url(/assets/3.jpeg);
   }
   .background2{
-    background-image: url(/public/assets/1.jpeg);
+    background-image: url(/assets/1.jpeg);
   }
   .background3{
-    background-image: url(/public/assets/2.jpeg);
+    background-image: url(/assets/2.jpeg);
   }
   
   button {
