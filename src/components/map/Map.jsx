@@ -2,6 +2,16 @@ import React from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import "./Map.css";
+import L from 'leaflet';
+
+const icon = L.icon({
+  iconUrl: "/assets/marker-icon-2x.png",
+  iconSize: [25, 41], // Adjust the size as needed
+  iconAnchor: [12, 41],
+  popupAnchor: [1, -34],
+  shadowSize: [41, 41],
+});
+
 
 const Map = () => {
   const position = [-38.05255918995808, -57.56565259304688]; // Latitud y longitud inicial
@@ -31,25 +41,25 @@ const Map = () => {
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
               attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             />
-            <Marker position={positionAbueloCoco}>
+            <Marker position={positionAbueloCoco} icon={icon}>
               <Popup>almacen:El abuelo coco</Popup>
             </Marker>
-            <Marker position={positionLasVitullas}>
+            <Marker position={positionLasVitullas} icon={icon}>
               <Popup>Las Vituallas • Supermercado</Popup>
             </Marker>
-            <Marker position={positionLaHuertaDeLasMellis}>
+            <Marker position={positionLaHuertaDeLasMellis} icon={icon}>
               <Popup>La Huerta De Las Mellis</Popup>
             </Marker>
-            <Marker position={positionLasMellisVerduleria}>
+            <Marker position={positionLasMellisVerduleria} icon={icon}>
               <Popup>Las Mellis Verduleria</Popup>
             </Marker>
-            <Marker position={positionLaHuertaDeLasMellis2}>
+            <Marker position={positionLaHuertaDeLasMellis2} icon={icon}>
               <Popup>La Huerta de las Mellis</Popup>
             </Marker>
-            <Marker position={positionArmonia}>
+            <Marker position={positionArmonia} icon={icon}>
               <Popup>Armonia</Popup>
             </Marker>
-            <Marker position={positionLaHuertaDeLasMellis3}>
+            <Marker position={positionLaHuertaDeLasMellis3} icon={icon}>
               <Popup>La Huerta de las Mellis</Popup>
             </Marker>
           </MapContainer>
